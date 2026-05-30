@@ -7,10 +7,10 @@ This repository contains the source code for the paper:
 ## Overview
 
 This paper studies the Job Shop Scheduling Problem with Discrete Operation Sequence Flexibility (JSPDS) and proposes:
-(1) A novel CP model is formulated. To the best of our knowledge, this is the first CP model for the JSPDS, outperforming existing MILP model.
-(2) A knowledge graph-enhanced evolutionary multitasking optimization (EMTO) framework is designed. The EMTO expands search knowledge from a single task to multiple tasks, providing more search knowledge than a single evolutionary algorithm. To avoid negative knowledge transfer from unrelated tasks, a knowledge graph is used to measure task relatedness, allowing the target task to select a suitable assisted task.
-(3) A dual statistical learning-assisted local search is introduced. This technique controls the application of low-density and high-density search operators during the algorithm's execution, while also ensuring that individuals select the appropriate search operators.
-(4) A CP-assisted evolutionary operator, as a kind of a matheuristic approach, is designed to overcome the limitations of the encoding and decoding scheme. It leverages the advantages of the mathematical model, where satisfying constraints naturally enable exploration of the entire solution space.
+- A novel CP model is formulated. To the best of our knowledge, this is the first CP model for the JSPDS, outperforming existing MILP model.
+- A knowledge graph-enhanced evolutionary multitasking optimization (EMTO) framework is designed. The EMTO expands search knowledge from a single task to multiple tasks, providing more search knowledge than a single evolutionary algorithm. To avoid negative knowledge transfer from unrelated tasks, a knowledge graph is used to measure task relatedness, allowing the target task to select a suitable assisted task.
+- A dual statistical learning-assisted local search is introduced. This technique controls the application of low-density and high-density search operators during the algorithm's execution, while also ensuring that individuals select the appropriate search operators.
+- A CP-assisted evolutionary operator, as a kind of a matheuristic approach, is designed to overcome the limitations of the encoding and decoding scheme. It leverages the advantages of the mathematical model, where satisfying constraints naturally enable exploration of the entire solution space.
 
 
 The proposed framework is referred to as **KG-EMMA**.
